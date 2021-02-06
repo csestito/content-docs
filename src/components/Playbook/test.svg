@@ -1,0 +1,540 @@
+<svg
+			className={classnames(className, 'diagram')}
+			viewBox={`0 0 683 294`}
+			version="1.1"
+			xmlns="http://www.w3.org/2000/svg"
+		>
+			<title>Vector Diagram</title>
+			<desc>A lightweight and ultra-fast tool for building observability pipelines</desc>
+
+			<g id="v-3657" class="joint-viewport" transform="matrix(0.8,0,0,0.8,0,480)">
+				<g
+					model-id="21d99fec-c552-4ee1-a4a9-4c5582f1686d"
+					id="j_178"
+					class="joint-cell joint-type-devs joint-type-devs-link joint-link joint-theme-default"
+					data-type="devs.Link"
+				>
+					<path
+						class="connection"
+						stroke="#adc0d4"
+						d="M 1380 59 L 1380 66 C 1380 71 1382.3333333333333 75.66666666666666 1387 80 L 1403 95 C 1407.6666666666665 99.66666666666666 1413.3333333333333 102 1420 102 L 1620 102 C 1626.6666666666665 102 1631.6666666666665 103.66666666666666 1635 107 L 1635 107 C 1638.3333333333333 110 1640 114 1640 119 L 1640 126"
+						id="v-5823"
+						stroke-width="1"
+					></path>
+					<path
+						class="marker-source"
+						fill="black"
+						stroke="black"
+						d="M 0 0 0 0"
+						transform="translate(1380,59) scale(1,1) rotate(-270)"
+					></path>
+					<path
+						class="marker-target"
+						fill="#adc0d4"
+						stroke="black"
+						d="M 10 0 L 0 5 L 10 10 z"
+						id="v-5825"
+						transform="translate(1635,126.00000000000023) scale(1,1) rotate(-90)"
+					></path>
+					<path
+						class="connection-wrap"
+						d="M 1380 59 L 1380 66 C 1380 71 1382.3333333333333 75.66666666666666 1387 80 L 1403 95 C 1407.6666666666665 99.66666666666666 1413.3333333333333 102 1420 102 L 1620 102 C 1626.6666666666665 102 1631.6666666666665 103.66666666666666 1635 107 L 1635 107 C 1638.3333333333333 110 1640 114 1640 119 L 1640 126"
+						id="v-5824"
+						stroke="transparent"
+						stroke-width="10"
+					></path>
+					<g class="marker-vertices"></g>
+					<g class="marker-arrowheads">
+						<g
+							class="marker-arrowhead-group marker-arrowhead-group-source"
+							id="v-5821"
+							transform="translate(1393,58.99999999999977) scale(1,1) rotate(-270)"
+						>
+							<path class="marker-arrowhead" end="source" d="M 26 0 L 0 13 L 26 26 z"></path>
+						</g>
+						<g
+							class="marker-arrowhead-group marker-arrowhead-group-target"
+							id="v-5822"
+							transform="translate(1627,126.00000000000023) scale(1,1) rotate(-90)"
+						>
+							<path class="marker-arrowhead" end="target" d="M 26 0 L 0 13 L 26 26 z"></path>
+						</g>
+					</g>
+					<g class="link-tools">
+						<g class="link-tool" id="v-5819" transform="translate(1416.0612792968748, 101.71118164062499) ">
+							<g class="tool-remove" event="remove">
+								<circle r="15"></circle>
+								<text transform="translate(-11, 9)" class="workflow-icon">
+									
+								</text>
+								<title>Remove link.</title>
+							</g>
+						</g>
+						<g class="link-tool" id="v-5820" visibility="hidden">
+							<g class="tool-remove" event="remove">
+								<circle r="15"></circle>
+								<text transform="translate(-11, 9)" class="workflow-icon">
+									
+								</text>
+								<title>Remove link.</title>
+							</g>
+						</g>
+					</g>
+				</g>
+				<g
+					model-id="147d0570-0dee-4a87-8175-69fea43d07f5"
+					id="j_177"
+					class="joint-cell joint-type-devs joint-type-devs-link joint-link joint-theme-default"
+					data-type="devs.Link"
+				>
+					<path
+						class="connection"
+						stroke="#adc0d4"
+						d="M 1380 59 L 1380 66 C 1380 71 1377.6666666666665 75.66666666666666 1373 80 L 1357 95 C 1352.3333333333333 99.66666666666666 1346.6666666666665 102 1340 102 L 1170 102 C 1163.3333333333333 102 1158.3333333333333 103.66666666666666 1155 107 L 1155 107 C 1151.6666666666665 110 1150 114 1150 119 L 1150 126"
+						id="v-5816"
+						stroke-width="1"
+					></path>
+					<path
+						class="marker-source"
+						fill="black"
+						stroke="black"
+						d="M 0 0 0 0"
+						transform="translate(1380,59) scale(1,1) rotate(-270)"
+					></path>
+					<path
+						class="marker-target"
+						fill="#adc0d4"
+						stroke="black"
+						d="M 10 0 L 0 5 L 10 10 z"
+						id="v-5818"
+						transform="translate(1145,126.00000000000023) scale(1,1) rotate(-90)"
+					></path>
+					<path
+						class="connection-wrap"
+						d="M 1380 59 L 1380 66 C 1380 71 1377.6666666666665 75.66666666666666 1373 80 L 1357 95 C 1352.3333333333333 99.66666666666666 1346.6666666666665 102 1340 102 L 1170 102 C 1163.3333333333333 102 1158.3333333333333 103.66666666666666 1155 107 L 1155 107 C 1151.6666666666665 110 1150 114 1150 119 L 1150 126"
+						id="v-5817"
+						stroke="transparent"
+						stroke-width="10"
+					></path>
+					<g class="marker-vertices"></g>
+					<g class="marker-arrowheads">
+						<g
+							class="marker-arrowhead-group marker-arrowhead-group-source"
+							id="v-5814"
+							transform="translate(1393,58.99999999999977) scale(1,1) rotate(-270)"
+						>
+							<path class="marker-arrowhead" end="source" d="M 26 0 L 0 13 L 26 26 z"></path>
+						</g>
+						<g
+							class="marker-arrowhead-group marker-arrowhead-group-target"
+							id="v-5815"
+							transform="translate(1137,126.00000000000023) scale(1,1) rotate(-90)"
+						>
+							<path class="marker-arrowhead" end="target" d="M 26 0 L 0 13 L 26 26 z"></path>
+						</g>
+					</g>
+					<g class="link-tools">
+						<g class="link-tool" id="v-5812" transform="translate(1343.9387207031248, 101.71118164062499) ">
+							<g class="tool-remove" event="remove">
+								<circle r="15"></circle>
+								<text transform="translate(-11, 9)" class="workflow-icon">
+									
+								</text>
+								<title>Remove link.</title>
+							</g>
+						</g>
+						<g class="link-tool" id="v-5813" visibility="hidden">
+							<g class="tool-remove" event="remove">
+								<circle r="15"></circle>
+								<text transform="translate(-11, 9)" class="workflow-icon">
+									
+								</text>
+								<title>Remove link.</title>
+							</g>
+						</g>
+					</g>
+				</g>
+				<g
+					model-id="b2b7b580-e5fe-49a1-968d-516d1d6362aa"
+					id="j_176"
+					class="joint-cell joint-type-devs joint-type-devs-link joint-link joint-theme-default"
+					data-type="devs.Link"
+				>
+					<path
+						class="connection"
+						stroke="#adc0d4"
+						d="M 570 429 L 570 496"
+						id="v-5809"
+						stroke-width="1"
+					></path>
+					<path
+						class="marker-source"
+						fill="black"
+						stroke="black"
+						d="M 0 0 0 0"
+						transform="translate(570,429) scale(1,1) rotate(-270)"
+					></path>
+					<path
+						class="marker-target"
+						fill="#adc0d4"
+						stroke="black"
+						d="M 10 0 L 0 5 L 10 10 z"
+						id="v-5811"
+						transform="translate(565,496.0000000000002) scale(1,1) rotate(-90)"
+					></path>
+					<path
+						class="connection-wrap"
+						d="M 570 429 L 570 496"
+						id="v-5810"
+						stroke="transparent"
+						stroke-width="10"
+					></path>
+					<g class="marker-vertices"></g>
+					<g class="marker-arrowheads">
+						<g
+							class="marker-arrowhead-group marker-arrowhead-group-source"
+							id="v-5807"
+							transform="translate(576.5,428.9999999999998) scale(0.5,0.5) rotate(-270)"
+						>
+							<path class="marker-arrowhead" end="source" d="M 26 0 L 0 13 L 26 26 z"></path>
+						</g>
+						<g
+							class="marker-arrowhead-group marker-arrowhead-group-target"
+							id="v-5808"
+							transform="translate(563.5,496.0000000000002) scale(0.5,0.5) rotate(-90)"
+						>
+							<path class="marker-arrowhead" end="target" d="M 26 0 L 0 13 L 26 26 z"></path>
+						</g>
+					</g>
+					<g class="link-tools">
+						<g class="link-tool" id="v-5805" transform="translate(570, 459) scale(.5)">
+							<g class="tool-remove" event="remove">
+								<circle r="15"></circle>
+								<text transform="translate(-11, 9)" class="workflow-icon">
+									
+								</text>
+								<title>Remove link.</title>
+							</g>
+						</g>
+						<g class="link-tool" id="v-5806" visibility="hidden">
+							<g class="tool-remove" event="remove">
+								<circle r="15"></circle>
+								<text transform="translate(-11, 9)" class="workflow-icon">
+									
+								</text>
+								<title>Remove link.</title>
+							</g>
+						</g>
+					</g>
+				</g>
+				<g
+					model-id="7c2ab8f8-905f-4ff0-b45e-1179bd77a510"
+					id="j_175"
+					class="joint-cell joint-type-devs joint-type-devs-link joint-link joint-theme-default"
+					data-type="devs.Link"
+				>
+					<path
+						class="connection"
+						stroke="#adc0d4"
+						d="M 580 249 L 580 272 C 580 278.79999999999995 578.3333333333333 283.79999999999995 575 287 L 575 287 C 571.6666666666666 290.1333333333333 570 294.1333333333333 570 299 L 570 306"
+						id="v-5802"
+						stroke-width="1"
+					></path>
+					<path
+						class="marker-source"
+						fill="black"
+						stroke="black"
+						d="M 0 0 0 0"
+						transform="translate(580,249) scale(1,1) rotate(-270)"
+					></path>
+					<path
+						class="marker-target"
+						fill="#adc0d4"
+						stroke="black"
+						d="M 10 0 L 0 5 L 10 10 z"
+						id="v-5804"
+						transform="translate(565,306.0000000000002) scale(1,1) rotate(-90)"
+					></path>
+					<path
+						class="connection-wrap"
+						d="M 580 249 L 580 272 C 580 278.79999999999995 578.3333333333333 283.79999999999995 575 287 L 575 287 C 571.6666666666666 290.1333333333333 570 294.1333333333333 570 299 L 570 306"
+						id="v-5803"
+						stroke="transparent"
+						stroke-width="10"
+					></path>
+					<g class="marker-vertices"></g>
+					<g class="marker-arrowheads">
+						<g
+							class="marker-arrowhead-group marker-arrowhead-group-source"
+							id="v-5800"
+							transform="translate(586.5,248.99999999999977) scale(0.5,0.5) rotate(-270)"
+						>
+							<path class="marker-arrowhead" end="source" d="M 26 0 L 0 13 L 26 26 z"></path>
+						</g>
+						<g
+							class="marker-arrowhead-group marker-arrowhead-group-target"
+							id="v-5801"
+							transform="translate(563.5,306.0000000000002) scale(0.5,0.5) rotate(-90)"
+						>
+							<path class="marker-arrowhead" end="target" d="M 26 0 L 0 13 L 26 26 z"></path>
+						</g>
+					</g>
+					<g class="link-tools">
+						<g
+							class="link-tool"
+							id="v-5798"
+							transform="translate(579.2821502685547, 278.954409790039) scale(.5)"
+						>
+							<g class="tool-remove" event="remove">
+								<circle r="15"></circle>
+								<text transform="translate(-11, 9)" class="workflow-icon">
+									
+								</text>
+								<title>Remove link.</title>
+							</g>
+						</g>
+						<g class="link-tool" id="v-5799" visibility="hidden">
+							<g class="tool-remove" event="remove">
+								<circle r="15"></circle>
+								<text transform="translate(-11, 9)" class="workflow-icon">
+									
+								</text>
+								<title>Remove link.</title>
+							</g>
+						</g>
+					</g>
+				</g>
+				<g
+					model-id="cfdf88eb-0d9f-4be3-a771-33f59b0b7ac9"
+					id="j_174"
+					class="joint-cell joint-type-devs joint-type-devs-link joint-link joint-theme-default"
+					data-type="devs.Link"
+				>
+					<path
+						class="connection"
+						stroke="#adc0d4"
+						d="M 580 59 L 580 126"
+						id="v-5795"
+						stroke-width="1"
+					></path>
+					<path
+						class="marker-source"
+						fill="black"
+						stroke="black"
+						d="M 0 0 0 0"
+						transform="translate(580,59) scale(1,1) rotate(-270)"
+					></path>
+					<path
+						class="marker-target"
+						fill="#adc0d4"
+						stroke="black"
+						d="M 10 0 L 0 5 L 10 10 z"
+						id="v-5797"
+						transform="translate(575,126.00000000000023) scale(1,1) rotate(-90)"
+					></path>
+					<path
+						class="connection-wrap"
+						d="M 580 59 L 580 126"
+						id="v-5796"
+						stroke="transparent"
+						stroke-width="10"
+					></path>
+					<g class="marker-vertices"></g>
+					<g class="marker-arrowheads">
+						<g
+							class="marker-arrowhead-group marker-arrowhead-group-source"
+							id="v-5793"
+							transform="translate(586.5,58.99999999999977) scale(0.5,0.5) rotate(-270)"
+						>
+							<path class="marker-arrowhead" end="source" d="M 26 0 L 0 13 L 26 26 z"></path>
+						</g>
+						<g
+							class="marker-arrowhead-group marker-arrowhead-group-target"
+							id="v-5794"
+							transform="translate(573.5,126.00000000000023) scale(0.5,0.5) rotate(-90)"
+						>
+							<path class="marker-arrowhead" end="target" d="M 26 0 L 0 13 L 26 26 z"></path>
+						</g>
+					</g>
+					<g class="link-tools">
+						<g class="link-tool" id="v-5791" transform="translate(580, 89) scale(.5)">
+							<g class="tool-remove" event="remove">
+								<circle r="15"></circle>
+								<text transform="translate(-11, 9)" class="workflow-icon">
+									
+								</text>
+								<title>Remove link.</title>
+							</g>
+						</g>
+						<g class="link-tool" id="v-5792" visibility="hidden">
+							<g class="tool-remove" event="remove">
+								<circle r="15"></circle>
+								<text transform="translate(-11, 9)" class="workflow-icon">
+									
+								</text>
+								<title>Remove link.</title>
+							</g>
+						</g>
+					</g>
+				</g>
+				<g
+					model-id="e702c891-72b0-42e7-a8cf-15d3671b1436"
+					id="j_173"
+					class="joint-cell joint-type-devs joint-type-devs-link joint-link joint-theme-default"
+					data-type="devs.Link"
+				>
+					<path
+						class="connection"
+						stroke="#adc0d4"
+						d="M 1050 -181 L 1050 -173 C 1050 -168.33333333333331 1052.3333333333333 -163.66666666666666 1057 -159 L 1123 -96 C 1127.6666666666665 -91.13333333333333 1133.3333333333333 -88.8 1140 -89 L 1360 -89 C 1366.6666666666665 -88.8 1371.6666666666665 -87.13333333333333 1375 -84 L 1375 -84 C 1378.3333333333333 -80.66666666666666 1380 -76.33333333333333 1380 -71 L 1380 -64"
+						id="v-5788"
+						stroke-width="1"
+					></path>
+					<path
+						class="marker-source"
+						fill="black"
+						stroke="black"
+						d="M 0 0 0 0"
+						transform="translate(1050,-181) scale(1,1) rotate(-270)"
+					></path>
+					<path
+						class="marker-target"
+						fill="#adc0d4"
+						stroke="black"
+						d="M 10 0 L 0 5 L 10 10 z"
+						id="v-5790"
+						transform="translate(1375,-63.99999999999977) scale(1,1) rotate(-90)"
+					></path>
+					<path
+						class="connection-wrap"
+						d="M 1050 -181 L 1050 -173 C 1050 -168.33333333333331 1052.3333333333333 -163.66666666666666 1057 -159 L 1123 -96 C 1127.6666666666665 -91.13333333333333 1133.3333333333333 -88.8 1140 -89 L 1360 -89 C 1366.6666666666665 -88.8 1371.6666666666665 -87.13333333333333 1375 -84 L 1375 -84 C 1378.3333333333333 -80.66666666666666 1380 -76.33333333333333 1380 -71 L 1380 -64"
+						id="v-5789"
+						stroke="transparent"
+						stroke-width="10"
+					></path>
+					<g class="marker-vertices"></g>
+					<g class="marker-arrowheads">
+						<g
+							class="marker-arrowhead-group marker-arrowhead-group-source"
+							id="v-5786"
+							transform="translate(1063,-181.00000000000023) scale(1,1) rotate(-270)"
+						>
+							<path class="marker-arrowhead" end="source" d="M 26 0 L 0 13 L 26 26 z"></path>
+						</g>
+						<g
+							class="marker-arrowhead-group marker-arrowhead-group-target"
+							id="v-5787"
+							transform="translate(1367,-63.99999999999977) scale(1,1) rotate(-90)"
+						>
+							<path class="marker-arrowhead" end="target" d="M 26 0 L 0 13 L 26 26 z"></path>
+						</g>
+					</g>
+					<g class="link-tools">
+						<g
+							class="link-tool"
+							id="v-5784"
+							transform="translate(1082.9919740576686, -134.18947930858903) "
+						>
+							<g class="tool-remove" event="remove">
+								<circle r="15"></circle>
+								<text transform="translate(-11, 9)" class="workflow-icon">
+									
+								</text>
+								<title>Remove link.</title>
+							</g>
+						</g>
+						<g class="link-tool" id="v-5785" visibility="hidden">
+							<g class="tool-remove" event="remove">
+								<circle r="15"></circle>
+								<text transform="translate(-11, 9)" class="workflow-icon">
+									
+								</text>
+								<title>Remove link.</title>
+							</g>
+						</g>
+					</g>
+				</g>
+				<g
+					model-id="99a949e3-3175-42e6-8e53-de9d69a0bdb3"
+					id="j_172"
+					class="joint-cell joint-type-devs joint-type-devs-link joint-link joint-theme-default"
+					data-type="devs.Link"
+				>
+					<path
+						class="connection"
+						stroke="#adc0d4"
+						d="M 1050 -181 L 1050 -173 C 1050 -168.33333333333331 1047.6666666666665 -163.66666666666666 1043 -159 L 977 -96 C 972.3333333333333 -91.13333333333333 966.6666666666666 -88.8 960 -89 L 600 -89 C 593.3333333333333 -88.8 588.3333333333333 -87.13333333333333 585 -84 L 585 -84 C 581.6666666666666 -80.66666666666666 580 -76.33333333333333 580 -71 L 580 -64"
+						id="v-5781"
+						stroke-width="1"
+					></path>
+					<path
+						class="marker-source"
+						fill="black"
+						stroke="black"
+						d="M 0 0 0 0"
+						transform="translate(1050,-181) scale(1,1) rotate(-270)"
+					></path>
+					<path
+						class="marker-target"
+						fill="#adc0d4"
+						stroke="black"
+						d="M 10 0 L 0 5 L 10 10 z"
+						id="v-5783"
+						transform="translate(575,-63.99999999999977) scale(1,1) rotate(-90)"
+					></path>
+					<path
+						class="connection-wrap"
+						d="M 1050 -181 L 1050 -173 C 1050 -168.33333333333331 1047.6666666666665 -163.66666666666666 1043 -159 L 977 -96 C 972.3333333333333 -91.13333333333333 966.6666666666666 -88.8 960 -89 L 600 -89 C 593.3333333333333 -88.8 588.3333333333333 -87.13333333333333 585 -84 L 585 -84 C 581.6666666666666 -80.66666666666666 580 -76.33333333333333 580 -71 L 580 -64"
+						id="v-5782"
+						stroke="transparent"
+						stroke-width="10"
+					></path>
+					<g class="marker-vertices"></g>
+					<g class="marker-arrowheads">
+						<g
+							class="marker-arrowhead-group marker-arrowhead-group-source"
+							id="v-5779"
+							transform="translate(1063,-181.00000000000023) scale(1,1) rotate(-270)"
+						>
+							<path class="marker-arrowhead" end="source" d="M 26 0 L 0 13 L 26 26 z"></path>
+						</g>
+						<g
+							class="marker-arrowhead-group marker-arrowhead-group-target"
+							id="v-5780"
+							transform="translate(567,-63.99999999999977) scale(1,1) rotate(-90)"
+						>
+							<path class="marker-arrowhead" end="target" d="M 26 0 L 0 13 L 26 26 z"></path>
+						</g>
+					</g>
+					<g class="link-tools">
+						<g
+							class="link-tool"
+							id="v-5777"
+							transform="translate(1017.0080259423313, -134.18947930858903) "
+						>
+							<g class="tool-remove" event="remove">
+								<circle r="15"></circle>
+								<text transform="translate(-11, 9)" class="workflow-icon">
+									
+								</text>
+								<title>Remove link.</title>
+							</g>
+						</g>
+						<g
+							class="link-tool"
+							id="v-5778"
+							transform="translate(622.5257724040979, -89) "
+							visibility="visible"
+						>
+							<g class="tool-remove" event="remove">
+								<circle r="15"></circle>
+								<text transform="translate(-11, 9)" class="workflow-icon">
+									
+								</text>
+								<title>Remove link.</title>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</svg>

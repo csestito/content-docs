@@ -13,6 +13,7 @@ import classnames from "classnames";
 import React, { useRef } from "react";
 import ScrollUpButton from "react-scroll-up-button";
 import styles from "./styles.module.css";
+import Playbook from "@site/src/components/Playbook";
 
 const features = [
   {
@@ -141,46 +142,7 @@ function Home() {
           styles.heroBanner
         )}
       >
-        <div className="container">
-          <div className={styles.hero}>
-            <div className={styles.heroInner}>
-              <h1 className={styles.heroProjectTagline}>
-                <img
-                  alt="Cortex XSOAR"
-                  className={styles.heroLogo}
-                  src={useBaseUrl("img/Cortex-XSOAR-black.svg")}
-                />
-                Automate the{" "}
-                <span className={styles.heroProjectKeywords}>future</span> with{" "}
-                <span className={styles.heroProjectKeywords}>Cortex XSOAR</span>{" "}
-              </h1>
-              <h3 className={styles.heroProjectDescription}>
-                Develop new integrations, automations, playbooks, reports and
-                more...
-              </h3>
-              <div className={styles.indexCtas}>
-                <Link
-                  className={classnames(
-                    "button button--info button--secondary button--lg",
-                    styles.headerButtons
-                  )}
-                  to="/docs/partners/why-xsoar"
-                >
-                  Why Cortex XSOAR?
-                </Link>
-                <Link
-                  className={classnames(
-                    "button button--info button--secondary button--lg",
-                    styles.headerButtons
-                  )}
-                  href="https://start.paloaltonetworks.com/become-a-technology-partner"
-                >
-                  Become a Partner
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
+       <Playbook className={styles.indexHeroDiagram} width="80%"/>
       </header>
 
       <main>
