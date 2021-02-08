@@ -1,7 +1,3 @@
 .path:hover {
   transform: scale(1.1) translate(-0.5%, -1%);
 }
-
-.graph {
-  background      : radial-gradient(#000 4px, transparent 5px);
-}
