@@ -48,12 +48,12 @@
   --ifm-color-secondary-light: #8799ac;
   --ifm-color-secondary-lighter: #8fa0b2;
   --ifm-color-secondary-lightest: #a8b5c3;
-  --ifm-font-family-base: "Montserrat", sans-serif, "Font Awesome 5 Free";
-  --ifm-font-family-monospace: "Roboto Mono", monospace;
+  --ifm-font-family-base: 'Montserrat', sans-serif, 'Demisto', 'Font Awesome 5 Free';
+  --ifm-font-family-monospace: 'Roboto Mono', monospace;
 }
 
 /* Dark mode overrides */
-html[data-theme="dark"] {
+html[data-theme='dark'] {
   --ifm-color-emphasis-100: var(--ifm-color-gray-900);
   --ifm-color-emphasis-200: var(--ifm-color-gray-800);
   --ifm-color-emphasis-300: var(--ifm-color-gray-700);
@@ -266,7 +266,7 @@ blockquote {
 }
 
 :target:before {
-  content: "";
+  content: '';
   display: block;
   height: 48px;
   margin: -48px 0 0 !important;
@@ -276,7 +276,7 @@ blockquote {
   outline: none;
 }
 
-html[data-theme="dark"] .docusaurus-highlight-code-line {
+html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(197, 189, 189, 0.3);
 }
 
@@ -300,7 +300,7 @@ video {
 }
 
 .header-github-link:before {
-  content: "";
+  content: '';
   width: 24px;
   height: 24px;
   display: flex;
@@ -308,7 +308,7 @@ video {
     no-repeat;
 }
 
-html[data-theme="dark"] .header-github-link:before {
+html[data-theme='dark'] .header-github-link:before {
   background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='white' d='M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12'/%3E%3C/svg%3E")
     no-repeat;
 }
@@ -324,7 +324,7 @@ html[data-theme="dark"] .header-github-link:before {
 
 @media (max-width: 380px) {
   .navbar__logo {
-    content: url("/img/Cortex-XSOAR-green.svg") !important;
+    content: url('/img/Cortex-XSOAR-green.svg') !important;
   }
 }
 
@@ -335,7 +335,7 @@ html[data-theme="dark"] .header-github-link:before {
   align-self: center;
 }
 
-.main-wrapper h1[class^="docTitle"] {
+.main-wrapper h1[class^='docTitle'] {
   font-size: 2.8rem;
 }
 
@@ -348,9 +348,7 @@ html[data-theme="dark"] .header-github-link:before {
 
 @media (max-width: 1320px) and (min-width: 997px) {
   .container {
-    max-width: calc(
-      var(--ifm-container-width) - 125px - var(--ifm-spacing-horizontal) * 2
-    );
+    max-width: calc(var(--ifm-container-width) - 125px - var(--ifm-spacing-horizontal) * 2);
   }
 }
 
@@ -382,7 +380,8 @@ html[data-theme="dark"] .header-github-link:before {
   margin: 0 auto;
 }
 
-.infoTable td, th {
+.infoTable td,
+th {
   border: none;
 }
 
@@ -403,7 +402,8 @@ html[data-theme="dark"] .header-github-link:before {
   width: 100%;
 }
 
-.contentTable td, th {
+.contentTable td,
+th {
   border: none;
 }
 
@@ -427,7 +427,7 @@ html[data-theme="dark"] .header-github-link:before {
 }
 
 .contentTableColName::after {
-  content: "";
+  content: '';
   display: block;
   min-width: 268px;
 }
@@ -523,9 +523,9 @@ html[data-theme="dark"] .header-github-link:before {
 }
 
 .Collapsible__trigger::after {
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';
   font-weight: 900;
-  content: "\f107";
+  content: '\f107';
   position: absolute;
   right: 10px;
   top: 10px;
@@ -539,7 +539,7 @@ html[data-theme="dark"] .header-github-link:before {
 
 /* Marketplace styles */
 .certifiedBadge::after {
-  content: "";
+  content: '';
   position: absolute;
   right: 0px;
   border-top-right-radius: 3px;
@@ -553,7 +553,7 @@ html[data-theme="dark"] .header-github-link:before {
 }
 
 .demistoBadge::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0px;
   right: 0px;
@@ -568,7 +568,7 @@ html[data-theme="dark"] .header-github-link:before {
 }
 
 .demisto::before {
-  content: "";
+  content: '';
   color: white;
   position: absolute;
   top: 0px;
@@ -588,7 +588,7 @@ html[data-theme="dark"] .header-github-link:before {
 }
 
 .certified::before {
-  content: "";
+  content: '';
   color: white;
   position: absolute;
   top: 0px;
@@ -608,7 +608,7 @@ html[data-theme="dark"] .header-github-link:before {
 }
 
 .certifiedLogo::before {
-  content: "";
+  content: '';
   color: var(--ifm-color-primary);
   font-family: demisto;
   font-style: normal;
@@ -629,8 +629,9 @@ html[data-theme="dark"] .header-github-link:before {
 }
 
 @font-face {
-  font-family: "Demisto";
-  src: url("/demisto-bundle-1597047141768.woff");
+  font-family: 'Demisto';
+  src: url('/demisto-bundle-1597047141768.woff') format('woff');
+  font-display: block;
 }
 
 /* Site dropdown menu */
@@ -641,8 +642,8 @@ html[data-theme="dark"] .header-github-link:before {
 }
 
 .panosItem::before {
-  content: "";
-  background-image: url("/img/strata_favicon.png");
+  content: '';
+  background-image: url('/img/strata_favicon.png');
   background-size: 100% 100%;
   display: inline-block;
   height: 30px;
@@ -658,8 +659,8 @@ html[data-theme="dark"] .header-github-link:before {
 }
 
 .cortexItem::before {
-  content: "";
-  background-image: url("/img/cortexfavicon.png");
+  content: '';
+  background-image: url('/img/cortexfavicon.png');
   background-size: 100% 100%;
   display: inline-block;
   height: 30px;
@@ -675,8 +676,8 @@ html[data-theme="dark"] .header-github-link:before {
 }
 
 .xsoarItem::before {
-  content: "";
-  background-image: url("/img/Cortex-XSOAR-product-green.svg");
+  content: '';
+  background-image: url('/img/Cortex-XSOAR-product-green.svg');
   background-size: 100% 100%;
   display: inline-block;
   height: 30px;
@@ -692,8 +693,8 @@ html[data-theme="dark"] .header-github-link:before {
 }
 
 .prismaItem::before {
-  content: "";
-  background-image: url("/img/prismafavicon.png");
+  content: '';
+  background-image: url('/img/prismafavicon.png');
   background-size: 100% 100%;
   display: inline-block;
   height: 30px;

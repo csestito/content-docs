@@ -690,6 +690,7 @@ See: https://github.com/demisto/content-docs/#generating-reference-docs''',
     playbook_items = [f'{playbooks_full_prefix}/{d.id}' for d in playbooks_doc_infos]
     script_items = [f'{scripts_full_prefix}/{d.id}' for d in script_doc_infos]
     article_items = [f'{articles_full_prefix}/{d.id}' for d in article_doc_infos]
+    article_items.insert(0,f'{prefix}/articles-index')
     release_items = [f'{releases_full_prefix}/{d.id}' for d in release_doc_infos]
     sidebar = [
         {
@@ -720,10 +721,6 @@ See: https://github.com/demisto/content-docs/#generating-reference-docs''',
     with open(f'{args.target}/sidebar.json', 'w') as f:
         json.dump(sidebar, f, indent=4)
     articles_sidebar = [
-        {
-            "type": "doc",
-            "id": f'{prefix}/articles-index'
-        },
         {
             "type": "category",
             "label": "Articles",
