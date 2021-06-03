@@ -62,7 +62,7 @@ module.exports = {
             'docs(/welcome|/index|/concepts|/contributing|/dashboards|/doc_imgs|/documentation|/incidents|/integrations|/packs|/playbooks|/scripts|/tutorials)',
         },
         {
-          to: '/docs/reference/articles/index',
+          to: '/docs/reference/articles',
           label: 'Articles',
           position: 'left',
           activeBaseRegex: 'docs/reference/articles/',
