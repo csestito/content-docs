@@ -4,7 +4,7 @@ const sidebars = {
   docs: [
     {
       type: "doc",
-      id: "welcome",
+      id: "welcome"
     },
     {
       type: "category",
@@ -13,29 +13,29 @@ const sidebars = {
       items: [
         {
           type: "doc",
-          id: "concepts/getting-started-guide",
+          id: "concepts/getting-started-guide"
         },
         {
           type: "doc",
-          id: "concepts/concepts",
+          id: "concepts/concepts"
         },
         {
           type: "category",
           label: "Design",
           collapsed: true,
-          items: ["concepts/design", "concepts/use-cases", "concepts/design-best-practices"],
+          items: ["concepts/design", "concepts/use-cases", "concepts/design-best-practices"]
         },
         {
           type: "category",
           label: "Developing",
           collapsed: true,
-          items: ["concepts/xsoar-ide", "concepts/pycharm-plugin", "concepts/dev-setup", "concepts/demisto-sdk"],
+          items: ["concepts/xsoar-ide", "concepts/pycharm-plugin", "concepts/dev-setup", "concepts/demisto-sdk"]
         },
         {
           type: "doc",
-          id: "concepts/faq",
-        },
-      ],
+          id: "concepts/faq"
+        }
+      ]
     },
     {
       type: "category",
@@ -47,14 +47,14 @@ const sidebars = {
         "contributing/checklist",
         "contributing/conventions",
         "contributing/docs-contrib",
-        "contributing/marketplace",
-      ],
+        "contributing/marketplace"
+      ]
     },
     {
       type: "category",
       label: "Content Packs",
       collapsed: true,
-      items: ["packs/packs-format", "packs/pack-docs-redir", "packs/pack-rn-redir", "packs/premium_packs"],
+      items: ["packs/packs-format", "packs/pack-docs-redir", "packs/pack-rn-redir", "packs/premium_packs"]
     },
     {
       type: "category",
@@ -71,8 +71,8 @@ const sidebars = {
             "integrations/parameter-types",
             "integrations/integration-desc-redir",
             "integrations/integration-logo",
-            "integrations/integration-doc-redir",
-          ],
+            "integrations/integration-doc-redir"
+          ]
         },
         {
           type: "category",
@@ -88,17 +88,17 @@ const sidebars = {
               items: [
                 "integrations/context-standards-about",
                 "integrations/context-standards-mandatory",
-                "integrations/context-standards-recommended",
-              ],
+                "integrations/context-standards-recommended"
+              ]
             },
             {
               type: "category",
               label: "Generic Commands",
-              items: ["integrations/generic-commands-about", "integrations/generic-commands-reputation"],
+              items: ["integrations/generic-commands-about", "integrations/generic-commands-reputation"]
             },
             "integrations/dbot",
-            "integrations/docker",
-          ],
+            "integrations/docker"
+          ]
         },
         {
           type: "category",
@@ -108,8 +108,8 @@ const sidebars = {
             "integrations/linting",
             "integrations/unit-testing",
             "integrations/test-playbooks",
-            "integrations/debugging",
-          ],
+            "integrations/debugging"
+          ]
         },
         {
           type: "category",
@@ -127,10 +127,10 @@ const sidebars = {
             "integrations/openapi-codegen",
             "integrations/postman-codegen",
             "integrations/code-generator",
-            "integrations/scheduled-commands",
-          ],
-        },
-      ],
+            "integrations/scheduled-commands"
+          ]
+        }
+      ]
     },
     {
       type: "category",
@@ -152,8 +152,8 @@ const sidebars = {
         "playbooks/generic-polling",
         "playbooks/playbooks-field-reference",
         "playbooks/playbooks-generic",
-        "playbooks/playbook-doc-redir",
-      ],
+        "playbooks/playbook-doc-redir"
+      ]
     },
     {
       type: "category",
@@ -167,8 +167,8 @@ const sidebars = {
         "incidents/incident-jobs",
         "incidents/incident-auto-extract",
         "incidents/incident-classification-mapping",
-        "incidents/incident-pre-processing",
-      ],
+        "incidents/incident-pre-processing"
+      ]
     },
     {
       type: "category",
@@ -179,19 +179,19 @@ const sidebars = {
         "documentation/pack-docs",
         "documentation/release-notes",
         "documentation/readme_file",
-        "documentation/integration-description",
-      ],
+        "documentation/integration-description"
+      ]
     },
     {
       type: "category",
       label: "Tutorials",
       collapsed: true,
-      items: ["tutorials/tut-setup-dev", "tutorials/tut-design", "tutorials/tut-integration-ui"],
+      items: ["tutorials/tut-setup-dev", "tutorials/tut-design", "tutorials/tut-integration-ui"]
     },
     {
       type: "doc",
-      id: "privacy",
-    },
+      id: "privacy"
+    }
   ],
   partners: [
     {
@@ -205,10 +205,10 @@ const sidebars = {
         "partners/adopt",
         "partners/certification",
         "partners/office-hours",
-        "partners/development-partners",
-      ],
-    },
-  ],
+        "partners/development-partners"
+      ]
+    }
+  ]
 };
 
 if (fs.existsSync("docs/reference/sidebar.json")) {
