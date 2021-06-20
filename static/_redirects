@@ -1,4 +1,5 @@
 # Redirect subdomain
+https://demisto.developers.paloaltonetworks.com/* https://xsoar.pan.dev/:splat 301!
 https://demisto.pan.dev/* https://xsoar.pan.dev/:splat 301!
 
 
